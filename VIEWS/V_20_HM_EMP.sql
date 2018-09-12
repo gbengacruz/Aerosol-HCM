@@ -1,0 +1,48 @@
+--------------------------------------------------------
+--  DDL for View V_20_HM_EMP
+--------------------------------------------------------
+
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "HCM"."V_20_HM_EMP" ("R_K", "EMP_NO", "EMP_TTL", "LST_NM", "FST_NM", "MDL_NM", "BTH_DT", "BTH_PLC", "EMP_SEX", "EMP_NTY", "NTY_LGA", "MRT_STA", "EMP_PHN", "EMP_EML", "EMP_ADR", "STF_CTG", "EMP_BRCH", "EMP_DEPT", "EMP_UNT", "EMP_DESG", "EMP_DT", "CFMT_DT", "EMP_LVL", "EMP_STP", "STF_STA", "CRT_BY", "CRT_DT", "UPD_BY", "UPD_DT", "APR_BY", "APR_DT", "ACC_CD", "ADR_CTY", "ADR_STT", "NTY_STT", "ADR_CITY", "NTY_CITY", "ADR_STR", "APR_STA") AS 
+  SELECT
+    r_k,
+    emp_no,
+    emp_ttl,
+    lst_nm,
+    fst_nm,
+    mdl_nm,
+    bth_dt,
+    bth_plc,
+    emp_sex,
+    emp_nty,
+    nty_lga,
+    mrt_sta,
+    emp_phn,
+    emp_eml,
+    emp_adr,
+    stf_ctg,
+    emp_brch,
+    emp_dept,
+    emp_unt,
+    emp_desg,
+    emp_dt,
+    cfmt_dt,
+    emp_lvl,
+    emp_stp,
+    stf_sta,
+    crt_by,
+    crt_dt,
+    upd_by,
+    upd_dt,
+    apr_by,
+    apr_dt,
+    acc_cd,
+    adr_cty,
+    adr_stt,
+    nty_stt,
+    adr_city,
+    nty_city,
+    adr_str,
+    apr_sta
+FROM
+    t_20_hm_emp
+;

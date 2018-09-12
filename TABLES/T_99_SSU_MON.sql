@@ -1,0 +1,17 @@
+--------------------------------------------------------
+--  DDL for Table T_99_SSU_MON
+--------------------------------------------------------
+
+  CREATE TABLE "HCM"."T_99_SSU_MON" 
+   (	"R_K" NUMBER, 
+	"MON_CD" VARCHAR2(30 BYTE), 
+	"MON_NM" VARCHAR2(255 BYTE), 
+	"ROW_VSN" NUMBER, 
+	"CRT_DT" TIMESTAMP (6) WITH LOCAL TIME ZONE, 
+	"CRT_BY" VARCHAR2(255 BYTE), 
+	"UPD_DT" TIMESTAMP (6) WITH LOCAL TIME ZONE, 
+	"UPD_BY" VARCHAR2(255 BYTE)
+   ) SEGMENT CREATION DEFERRED 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 
+ NOCOMPRESS LOGGING
+  TABLESPACE "USERS" ;
