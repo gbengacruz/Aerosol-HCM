@@ -2,7 +2,7 @@
 --  DDL for Package PK_20_HM_EMP
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE "HCM"."PK_20_HM_EMP" AS 
+  CREATE OR REPLACE EDITIONABLE PACKAGE "PK_20_HM_EMP" AS 
 
 -- Author       : Gbenga Cruz 
 -- Description  : Cloud Employee Information

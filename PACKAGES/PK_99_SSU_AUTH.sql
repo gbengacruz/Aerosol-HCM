@@ -2,7 +2,7 @@
 --  DDL for Package PK_99_SSU_AUTH
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE "HCM"."PK_99_SSU_AUTH" AS  
+  CREATE OR REPLACE EDITIONABLE PACKAGE "PK_99_SSU_AUTH" AS  
  
   ---Cloud Admin and App User Authentication 
       

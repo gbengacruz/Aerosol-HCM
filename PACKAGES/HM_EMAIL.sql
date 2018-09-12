@@ -2,7 +2,7 @@
 --  DDL for Package HM_EMAIL
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE "HCM"."HM_EMAIL" as
+  CREATE OR REPLACE EDITIONABLE PACKAGE "HM_EMAIL" as
     --EXAMPLE
     --declare
     --   l_status        varchar2(30);

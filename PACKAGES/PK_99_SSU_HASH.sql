@@ -2,7 +2,7 @@
 --  DDL for Package PK_99_SSU_HASH
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE "HCM"."PK_99_SSU_HASH" AS 
+  CREATE OR REPLACE EDITIONABLE PACKAGE "PK_99_SSU_HASH" AS 
 -- Author       : Gbenga Cruz 
 -- Description  : Cloud Account Management 
 -- Date         : January 18, 2017 

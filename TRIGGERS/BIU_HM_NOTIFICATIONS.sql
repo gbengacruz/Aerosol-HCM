@@ -2,7 +2,7 @@
 --  DDL for Trigger BIU_HM_NOTIFICATIONS
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "HCM"."BIU_HM_NOTIFICATIONS" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "BIU_HM_NOTIFICATIONS" 
 before insert or update on HM_notifications
     for each row
 begin
@@ -26,4 +26,4 @@ end biu_HM_notifications;
 
 
 /
-ALTER TRIGGER "HCM"."BIU_HM_NOTIFICATIONS" ENABLE;
+ALTER TRIGGER "BIU_HM_NOTIFICATIONS" ENABLE;

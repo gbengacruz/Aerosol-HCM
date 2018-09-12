@@ -2,7 +2,7 @@
 --  DDL for Trigger EMP_TRG1
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "HCM"."EMP_TRG1" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "EMP_TRG1" 
               before insert on emp
               for each row
               begin
@@ -11,4 +11,4 @@
                  end if;
               end;
 /
-ALTER TRIGGER "HCM"."EMP_TRG1" ENABLE;
+ALTER TRIGGER "EMP_TRG1" ENABLE;

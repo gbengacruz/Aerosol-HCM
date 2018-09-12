@@ -2,7 +2,7 @@
 --  DDL for Trigger DEPT_TRG1
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "HCM"."DEPT_TRG1" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "DEPT_TRG1" 
               before insert on dept
               for each row
               begin
@@ -11,4 +11,4 @@
                  end if;
               end;
 /
-ALTER TRIGGER "HCM"."DEPT_TRG1" ENABLE;
+ALTER TRIGGER "DEPT_TRG1" ENABLE;

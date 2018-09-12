@@ -2,7 +2,7 @@
 --  DDL for Package Body HM_FW
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HCM"."HM_FW" as
+  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HM_FW" as
     --
     -- Function: get_preference_value
     -- Purpose: Returns the current value for an application preference.

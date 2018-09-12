@@ -2,7 +2,7 @@
 --  DDL for View V_99_SSU_HASH
 --------------------------------------------------------
 
-  CREATE OR REPLACE FORCE EDITIONABLE VIEW "HCM"."V_99_SSU_HASH" ("R_K", "HASH_CODE", "HASH_DESC", "HASH_KEY", "CRT_BY", "CRT_DT", "UPD_BY", "UPD_DT") AS 
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "V_99_SSU_HASH" ("R_K", "HASH_CODE", "HASH_DESC", "HASH_KEY", "CRT_BY", "CRT_DT", "UPD_BY", "UPD_DT") AS 
   SELECT
     r_k,
     hash_code,

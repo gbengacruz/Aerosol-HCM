@@ -3,7 +3,7 @@
 --------------------------------------------------------
 set define off;
 
-  CREATE OR REPLACE EDITIONABLE PROCEDURE "HCM"."BODY" PKG_00_EML AS 
+  CREATE OR REPLACE EDITIONABLE PROCEDURE "BODY" PKG_00_EML AS 
 
 -- Name         : PKG_00_EML
 -- Author       : Gbenga Cruz

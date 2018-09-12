@@ -2,7 +2,7 @@
 --  DDL for Package Body HM_EMAIL
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HCM"."HM_EMAIL" as
+  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HM_EMAIL" as
 g_ws_name        varchar2(255) := 'ASPIREHCM';  -- OWNING WORKSPACE
 g_owning_app_id  number := 118733;      -- OWNING APPLICATION
 procedure create_email (

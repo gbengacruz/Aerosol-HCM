@@ -2,7 +2,7 @@
 --  DDL for Trigger BIU_HM_USER_PREFERENCES
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "HCM"."BIU_HM_USER_PREFERENCES" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "BIU_HM_USER_PREFERENCES" 
     before insert or update on HM_user_preferences
     for each row
 begin
@@ -23,4 +23,4 @@ end;
 
 
 /
-ALTER TRIGGER "HCM"."BIU_HM_USER_PREFERENCES" ENABLE;
+ALTER TRIGGER "BIU_HM_USER_PREFERENCES" ENABLE;

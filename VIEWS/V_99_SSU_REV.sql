@@ -2,7 +2,7 @@
 --  DDL for View V_99_SSU_REV
 --------------------------------------------------------
 
-  CREATE OR REPLACE FORCE EDITIONABLE VIEW "HCM"."V_99_SSU_REV" ("R_K", "UNT", "AMT", "ROW_VSN", "CRT_DT", "CRT_BY", "UPD_DT", "UPD_BY", "ACC_CD") AS 
+  CREATE OR REPLACE FORCE EDITIONABLE VIEW "V_99_SSU_REV" ("R_K", "UNT", "AMT", "ROW_VSN", "CRT_DT", "CRT_BY", "UPD_DT", "UPD_BY", "ACC_CD") AS 
   SELECT
     r_k,
     unt,

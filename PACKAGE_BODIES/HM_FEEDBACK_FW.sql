@@ -2,7 +2,7 @@
 --  DDL for Package Body HM_FEEDBACK_FW
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HCM"."HM_FEEDBACK_FW" as
+  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HM_FEEDBACK_FW" as
     c_fb_subject     constant varchar2(500) := HM_fw.get_preference_value('APPLICATION_TITLE') || ': Feedback Submission';
     c_base_url       constant varchar2(500) := HM_fw.get_preference_value('HOST_URL');
     c_tdtop_tmpl     constant clob := '<!DOCTYPE HTML>

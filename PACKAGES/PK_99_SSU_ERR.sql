@@ -2,7 +2,7 @@
 --  DDL for Package PK_99_SSU_ERR
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE "HCM"."PK_99_SSU_ERR" AS  
+  CREATE OR REPLACE EDITIONABLE PACKAGE "PK_99_SSU_ERR" AS  
  
 -- Author       : Gbenga Cruz 
 -- Description  : Error Handling 

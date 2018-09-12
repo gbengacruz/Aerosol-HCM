@@ -2,7 +2,7 @@
 --  DDL for Package Body PK_99_SSU_VAL
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HCM"."PK_99_SSU_VAL" AS 
+  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "PK_99_SSU_VAL" AS 
  
 -- Author       : Gbenga Cruz 
 -- Description  : Validation Management  

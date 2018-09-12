@@ -2,7 +2,7 @@
 --  DDL for Package PK_99_SSU_USR
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE "HCM"."PK_99_SSU_USR" AS  
+  CREATE OR REPLACE EDITIONABLE PACKAGE "PK_99_SSU_USR" AS  
  
 -- Author       : Gbenga Cruz 
 -- Description  : Cloud Application User Management 

@@ -2,7 +2,7 @@
 --  DDL for Package PK_99_SSU_ACC
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE "HCM"."PK_99_SSU_ACC" AS  
+  CREATE OR REPLACE EDITIONABLE PACKAGE "PK_99_SSU_ACC" AS  
  
 -- Author       : Gbenga Cruz 
 -- Description  : Cloud Account Management 

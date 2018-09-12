@@ -2,7 +2,7 @@
 --  DDL for Package Body PK_99_SSU_PYMT
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HCM"."PK_99_SSU_PYMT" AS
+  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "PK_99_SSU_PYMT" AS
 -- Author       : Gbenga Cruz 
 -- Description  : Cloud Account Management 
 -- Date         : January 18, 2017 

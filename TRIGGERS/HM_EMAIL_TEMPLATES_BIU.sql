@@ -2,7 +2,7 @@
 --  DDL for Trigger HM_EMAIL_TEMPLATES_BIU
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "HCM"."HM_EMAIL_TEMPLATES_BIU" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "HM_EMAIL_TEMPLATES_BIU" 
    before insert or update on HM_email_templates
    for each row
 begin
@@ -20,4 +20,4 @@ end;
 
 
 /
-ALTER TRIGGER "HCM"."HM_EMAIL_TEMPLATES_BIU" ENABLE;
+ALTER TRIGGER "HM_EMAIL_TEMPLATES_BIU" ENABLE;

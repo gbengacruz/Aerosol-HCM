@@ -2,7 +2,7 @@
 --  DDL for Trigger BIU_HM_ERRORS
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "HCM"."BIU_HM_ERRORS" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "BIU_HM_ERRORS" 
     before insert or update on HM_errors
     for each row
 begin
@@ -13,4 +13,4 @@ end;
 
 
 /
-ALTER TRIGGER "HCM"."BIU_HM_ERRORS" ENABLE;
+ALTER TRIGGER "BIU_HM_ERRORS" ENABLE;

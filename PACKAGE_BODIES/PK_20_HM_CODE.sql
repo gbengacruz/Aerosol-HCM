@@ -2,7 +2,7 @@
 --  DDL for Package Body PK_20_HM_CODE
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HCM"."PK_20_HM_CODE" AS
+  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "PK_20_HM_CODE" AS
 -- Author       : Gbenga Cruz 
 -- Description  : Cloud HR Setups 
 -- Date         : January 18, 2017 

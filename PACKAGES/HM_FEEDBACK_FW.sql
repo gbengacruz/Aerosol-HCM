@@ -2,7 +2,7 @@
 --  DDL for Package HM_FEEDBACK_FW
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE "HCM"."HM_FEEDBACK_FW" is
+  CREATE OR REPLACE EDITIONABLE PACKAGE "HM_FEEDBACK_FW" is
     procedure send_feedback_email (
         p_app_id        in number,
         p_page_id       in number,

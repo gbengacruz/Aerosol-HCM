@@ -2,7 +2,7 @@
 --  DDL for Package Body PK_99_PYR_RUN
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HCM"."PK_99_PYR_RUN" AS
+  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "PK_99_PYR_RUN" AS
 
 -- Author       : Gbenga Cruz 
 -- Description  : Payroll Period Setups 

@@ -2,7 +2,7 @@
 --  DDL for Package Body HM_SEARCH_FW
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HCM"."HM_SEARCH_FW" as
+  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HM_SEARCH_FW" as
     procedure build_search_collection(  p_search_term in varchar2,
                                         p_tables in varchar2 default null ) is
         table_search_sql varchar2(32767) := null;

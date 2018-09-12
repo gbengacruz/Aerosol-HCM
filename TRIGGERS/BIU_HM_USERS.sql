@@ -2,7 +2,7 @@
 --  DDL for Trigger BIU_HM_USERS
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "HCM"."BIU_HM_USERS" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "BIU_HM_USERS" 
     before insert or update on HM_users
     for each row
 begin
@@ -25,4 +25,4 @@ end;
 
 
 /
-ALTER TRIGGER "HCM"."BIU_HM_USERS" ENABLE;
+ALTER TRIGGER "BIU_HM_USERS" ENABLE;

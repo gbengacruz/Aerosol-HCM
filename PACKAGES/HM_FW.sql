@@ -2,7 +2,7 @@
 --  DDL for Package HM_FW
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE "HCM"."HM_FW" as
+  CREATE OR REPLACE EDITIONABLE PACKAGE "HM_FW" as
     --
     -- Function: get_preference_value
     -- Purpose: Returns the current value for an application preference.

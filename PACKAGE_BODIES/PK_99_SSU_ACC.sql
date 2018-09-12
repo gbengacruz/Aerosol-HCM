@@ -2,7 +2,7 @@
 --  DDL for Package Body PK_99_SSU_ACC
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HCM"."PK_99_SSU_ACC" AS 
+  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "PK_99_SSU_ACC" AS 
  
 -- Author       : Gbenga Cruz 
 -- Description  : Cloud Account Management 

@@ -2,7 +2,7 @@
 --  DDL for Package Body PK_99_SSU_USR
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HCM"."PK_99_SSU_USR" AS 
+  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "PK_99_SSU_USR" AS 
 
 -- Author       : Gbenga Cruz 
 -- Description  : Cloud Application User Management 

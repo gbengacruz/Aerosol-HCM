@@ -2,7 +2,7 @@
 --  DDL for Package Body PK_99_SSU_ERR
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "HCM"."PK_99_SSU_ERR" AS 
+  CREATE OR REPLACE EDITIONABLE PACKAGE BODY "PK_99_SSU_ERR" AS 
  
 -- Author       : Gbenga Cruz 
 -- Description  : Error Handling 

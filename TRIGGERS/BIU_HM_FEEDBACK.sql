@@ -2,7 +2,7 @@
 --  DDL for Trigger BIU_HM_FEEDBACK
 --------------------------------------------------------
 
-  CREATE OR REPLACE EDITIONABLE TRIGGER "HCM"."BIU_HM_FEEDBACK" 
+  CREATE OR REPLACE EDITIONABLE TRIGGER "BIU_HM_FEEDBACK" 
     before insert or update
     on HM_feedback
     for each row
@@ -21,4 +21,4 @@ end;
 
 
 /
-ALTER TRIGGER "HCM"."BIU_HM_FEEDBACK" ENABLE;
+ALTER TRIGGER "BIU_HM_FEEDBACK" ENABLE;
