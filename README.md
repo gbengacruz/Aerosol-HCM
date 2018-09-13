@@ -5,4 +5,4 @@ Note : Project still ongoing
 
 Installation Steps
 
-1. Login to your schema, run 
+1. Login to your schema, run script Generated-20180912130052.sql
