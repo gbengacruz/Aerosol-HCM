@@ -1,4 +1,4 @@
-# DigitalDroplet-HCM
+# Droplets-HCM
 Human Capital Resources Software Built with Oracle Apex 
 (https://r0mlg8oc0e1zzbk-dbdroplet01.adb.us-ashburn-1.oraclecloudapps.com/ords/r/saas/droplethcm)
 Note : Project still ongoing
